@@ -23,6 +23,10 @@ $(document).ready(function() {
         $(this).toggleClass("done");
     })
 
+    $('.fa-plus').on('click', function(){
+        console.log("your mum");
+    });
+
 
 
 

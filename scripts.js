@@ -8,6 +8,9 @@ var newTodo;
     if(e.keyCode == 13) {
         newTodo = $(this).val();
         console.log(newTodo);
+        $('ul').append(
+        $('<li>').append(newTodo)
+        )
          $("input").val("");
         //return newTodo;
     }

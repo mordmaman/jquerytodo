@@ -8,8 +8,8 @@ var newTodo;
     if(e.keyCode == 13) {
         newTodo = $(this).val();
         console.log(newTodo);
-        return newTodo;
-        //alert(newTodo);
+         $("input").val("");
+        //return newTodo;
     }
 });
 

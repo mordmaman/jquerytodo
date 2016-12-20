@@ -23,6 +23,8 @@ $(document).ready(function() {
         $(this).toggleClass("done");
     })
 
+
+//slides the input up and down when click on plus icon
     $('.fa-plus').on('click', function(){
         $( ".inputForm" ).slideToggle( "slow", function() {
     // Animation complete.
@@ -30,6 +32,13 @@ $(document).ready(function() {
     });
 
 
+//deletes li when click on trash icon
+    $("i").click(function(e){
+        $(this).parent().fadeOut(500, function(){
+            $(this).remove();
+        });
+        e.stopPropagation();
+    });
 
 
 //     $('ul').append(

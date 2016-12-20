@@ -17,7 +17,7 @@ var newTodo;
     }
 });
 
-    $('li').on('click', function(){
+    $('ul').on('click', 'li', function(){
         $(this).toggleClass("done");
     })
 

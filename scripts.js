@@ -24,7 +24,9 @@ $(document).ready(function() {
     })
 
     $('.fa-plus').on('click', function(){
-        console.log("your mum");
+        $( ".inputForm" ).slideToggle( "slow", function() {
+    // Animation complete.
+        });
     });
 
 

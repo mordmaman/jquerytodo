@@ -2,12 +2,12 @@
 
 $(document).ready(function() {
 
-var newTodo;
+//var newTodo;
 
 //takes user input and creates a new list item when enter key is pressed
     $("input").on("keydown",function(e) {
     if(e.keyCode == 13) {
-        newTodo = $(this).val();
+        var  newTodo = $(this).val();
         console.log(newTodo);
         $('ul').append(
         $('<li>').append(newTodo)
@@ -17,6 +17,8 @@ var newTodo;
     }
 });
 
+//toggles done class when click on list item
+//includes delegated event for new li elements
     $('ul').on('click', 'li', function(){
         $(this).toggleClass("done");
     })

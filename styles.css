@@ -45,7 +45,7 @@ ul {
 
 ul li{
     list-style-type: none;
-    width: 200px;
+    width: 250px;
 }
 
 input{
@@ -54,3 +54,6 @@ input{
     border-width:0px;
     border:none;
 }
+
+li { background: green; }
+li:nth-child(odd) { background: red; }

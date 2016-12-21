@@ -1,6 +1,9 @@
 .container{
     display: flex;
     flex-direction: column;
+    border: 1px solid black;
+    width: 25%;
+    margin: 0 auto;
 }
 
 .header{
@@ -26,6 +29,10 @@
 
 .hidden {
     visibility: hidden;
+}
+
+ul {
+    padding-left: 0px;
 }
 
 ul li{

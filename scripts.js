@@ -10,7 +10,7 @@ $(document).ready(function() {
         var  newTodo = $(this).val();
         console.log(newTodo);
         $('ul').append(
-        $('<li>').append(newTodo)
+        $('<li><i class="fa fa-trash" aria-hidden="true"></i>').append(newTodo)
         )
          $("input").val("");
         //return newTodo;
@@ -33,7 +33,14 @@ $(document).ready(function() {
 
 
 //deletes li when click on trash icon
-    $("i").click(function(e){
+    // $("i").click(function(e){
+    //     $(this).parent().fadeOut(500, function(){
+    //         $(this).remove();
+    //     });
+    //     e.stopPropagation();
+    // });
+
+    $("ul").on('click', "i", function(e){
         $(this).parent().fadeOut(500, function(){
             $(this).remove();
         });

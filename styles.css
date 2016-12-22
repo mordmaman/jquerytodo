@@ -1,5 +1,11 @@
-body{
+body, html{
+    height: 100%;
     font-family: 'Space Mono', monospace;
+    background: #F5E899; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#F5E899, #FFFCF7); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#F5E899, #FFFCF7); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F5E899, #FFFCF7); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#F5E899, #FFFCF7); /* Standard syntax */
 }
 
 .container{

@@ -40,7 +40,7 @@ $(document).ready(function() {
     //     e.stopPropagation();
     // });
 
-    $("ul").on('click', "i", function(e){
+    $("ul").on('click', "span", function(e){
         $(this).parent().fadeOut(500, function(){
             $(this).remove();
         });

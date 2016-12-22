@@ -10,7 +10,7 @@ $(document).ready(function() {
         var  newTodo = $(this).val();
         console.log(newTodo);
         $('ul').append(
-        $('<li><i class="fa fa-trash" aria-hidden="true"></i>').append(newTodo)
+        $('<li><span><i class="fa fa-trash"></i></span>').append(newTodo)
         )
          $("input").val("");
         //return newTodo;

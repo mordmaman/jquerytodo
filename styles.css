@@ -13,29 +13,32 @@
 
 .header h1{
     padding-left: 20px;
-    font-size: 25px;
+    font: 25px;
 }
 
 .fa-plus {
-    padding: 25px 0 25px 50px;
+    float: right;
+    font-size: 25px;
+    /*padding: 25px 0 25px 50px;*/
 }
 
 .done {
     text-decoration: line-through;
 }
 
-.fa-trash{
+span{
     text-align: center;
-    line-height: 25px;
-    padding: 10px 10px;
-    width: 20px;
-    height: 20px;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
     background-color: red;
     margin-right: 5px;
+    color: #ffffff;
+    display: inline-block;
 }
 
 .hidden {
-    visibility: hidden;
+    display: none;
 }
 
 ul {
@@ -58,3 +61,4 @@ input{
 
 li { background: green; }
 li:nth-child(odd) { background: red; }
+

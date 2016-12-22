@@ -10,11 +10,6 @@ body{
     margin: 0 auto;
 }
 
-.header{
-    display: inline-flex;
-    height: 50px;
-}
-
 h1{
     height: 50px;
     margin-top: 0px;
@@ -53,10 +48,6 @@ li:hover span {
 	opacity: 1.0;
 }
 
-.hidden {
-    display: none;
-}
-
 ul {
     padding-left:0px;
     margin-top: 0px;
@@ -68,13 +59,12 @@ ul li{
     width: 300px;
 }
 
-
-
 input{
     height: 40px;
-    width: 100%;
+    width: 290px;
     border-width:0px;
     border:none;
+    padding-left: 10px;
 }
 
 li { background: #FCD1B8; }

@@ -26,12 +26,19 @@ h1{
 span{
     text-align: center;
     line-height: 40px;
-    width: 40px;
+    /*width: 40px;*/
     height: 40px;
     background-color: red;
     margin-right: 5px;
     color: #ffffff;
     display: inline-block;
+    transition: 0.2s linear;
+	opacity: 0;
+}
+
+li:hover span {
+	width: 40px;
+	opacity: 1.0;
 }
 
 .hidden {
@@ -48,6 +55,8 @@ ul li{
     list-style-type: none;
     width: 250px;
 }
+
+
 
 input{
     height: 40px;

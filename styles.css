@@ -16,10 +16,18 @@ body{
 }
 
 h1{
+    height: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #D7007E;
     font-size: 24px;
+    padding-left: 10px;
+    padding-top:10px;
 }
 
 .fa-plus {
+    padding-top: 8px;
+    padding-right: 10px;
     float: right;
 }
 
@@ -30,10 +38,10 @@ h1{
 span{
     text-align: center;
     line-height: 40px;
-    /*width: 40px;*/
+    width: 0px;
     height: 40px;
     background-color: red;
-    margin-right: 5px;
+    margin-right: 10px;
     color: #ffffff;
     display: inline-block;
     transition: 0.2s linear;
@@ -69,6 +77,6 @@ input{
     border:none;
 }
 
-li { background: green; }
-li:nth-child(odd) { background: red; }
+li { background: #FCD1B8; }
+li:nth-child(odd) { background: #FB8B6D; }
 
